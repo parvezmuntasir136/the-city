@@ -1,0 +1,241 @@
+@font-face {
+    font-family: Brandon;
+    src: url(../Brandon-Grotesque-Font/brand_ssv/Brandon_bld.otf);
+  }
+  @font-face {
+    font-family: Brandon;
+    src: url(../Brandon-Grotesque-Font/brand_ssv/Brandon_blk.otf);
+  }
+  @font-face {
+    font-family: Brandon;
+    src: url(../Brandon-Grotesque-Font/brand_ssv/Brandon_med.otf);
+  }
+  @font-face {
+    font-family: Brandon;
+    src: url(../Brandon-Grotesque-Font/brand_ssv/Brandon_reg.otf);
+  }
+  @font-face {
+    font-family: Brandon;
+    src: url(../Brandon-Grotesque-Font/brand_ssv/Brandon_reg_it.otf);
+  }
+  *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }
+  .containar {
+      max-width: 1300px;
+      width: 100%;
+      margin: 0 auto;
+  }
+  body h1,h2,h3,h4{
+    font-family: Brandon;
+  }
+.d-flex {
+  display: flex;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+  /* --------------------------- topbar-parrents -------------------- */
+  .topbar-section{
+    padding: 7px 0px;
+    background: #f6f6f6;
+}
+.topbar-section .topbar-parrent{
+    display: flex;
+    justify-content: space-between;
+}
+.topbar-section .topbar-parrent .menu-list ul{
+    display: flex;
+    align-items: center;
+}
+.topbar-section .topbar-parrent .menu-list ul a{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Crimson Pro', serif;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #212721;
+}
+.topbar-section .topbar-parrent .menu-list ul .left{
+    padding: 20px 15px;
+    border-right: 2px solid #d0cec9;
+}
+.topbar-section .topbar-parrent .menu-list ul .right {
+    padding: 20px 15px;
+    border-right: 2px solid #d0cec9;
+    border-left: 2px solid #d0cec9 ;
+}
+.topbar-section .topbar-parrent .menu-list ul img{
+    padding-right: 16px;
+    padding-left: 15px;
+}
+.topbar-section .topbar-parrent .all-chart ul{
+    display: flex;
+    align-items: center;
+}
+.all-chart .icon ul a{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Brandon Grotesque Bold', sans-serif;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.all-chart .icon ul  [type=text]{
+    padding: 10px 15px;
+    margin-right: 25px;
+    background: url(./img/search.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 10%;
+    border: 2px solid #eeeeee;
+    background-color: #ffffff;
+    color: #000000;
+}
+.all-chart .icon ul li .left{
+    padding: 17px 25px;
+    border-left: 2px solid #d0cec9;
+}
+.all-chart .icon ul li .right{
+    padding: 17px 20px;
+    border-left: 2px solid #d0cec9;
+}
+.all-chart .icon ul li a .far{
+    margin-right: 20px;
+}
+/* ----------------------------logo-section----------------------------------- */
+.logo-parrant{
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+/* -----------------------------------------nav-bar--------------------------------------- */
+.nav-section {
+  border-top:2px solid #e2e2e2;
+}
+.nav-section .nav-bar-parrant ul{
+  justify-content: center;
+  
+}
+.nav-section .nav-bar-parrant ul li{
+  margin: 20px;
+}
+.nav-section .nav-bar-parrant ul li a{
+  border-right: 1px solid;
+  padding-right: 20px;
+  text-transform: uppercase;
+  color:#000;
+  font-family: 'Brandon Grotesque Light', sans-serif;
+  font-weight: 400;
+  color: #212721;
+  font-size: 12px;
+} 
+.nav-section .nav-bar-parrant ul li a:hover{
+  color: #900707;
+}
+/* --------------------------------------------------------bannar-sectiom----------------------------------- */
+.banner-section{
+  background-image: url("../img/bannar.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding:0px;
+  height: auto;
+}
+.banner-section .banner-parrant .banner-content{
+  text-align: center;
+  padding: 110px 0;
+}
+.banner-section .banner-parrant .banner-content h2{
+  color:#fff;
+  font-size: 60px;
+  font-weight: 400px;
+  line-break: 20px;
+  letter-spacing: 14px;
+  text-transform: uppercase;
+}
+.banner-section .banner-parrant .banner-content p{
+  color:#fff;
+  font-size: 24px;
+  font-weight: 400px;
+  line-break: 20px;
+  letter-spacing: 4px;
+  max-width: 400px;
+  margin: 0 auto;
+  text-transform: capitalize;
+}
+.banner-section .banner-parrant .banner-btn{
+  margin-top: 30px;
+}
+.banner-section .banner-parrant .banner-btn a{
+  padding: 20px 30px;
+  background: #000;
+  color:#fff;
+  text-transform: uppercase;
+}
+/* --------------------------------------------shop-with-us-section----------------------------------------------------------- */
+.shop-section .shop-heading{
+  text-align: center;
+  padding: 20px 0;
+}
+.shop-section .shop-parrant{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 50px;
+  column-gap:12px;
+}
+.shop-section .shop-parrant .shop-item img{
+  width: 100%;
+}
+.shop-section .shop-parrant .shop-item p{
+  font-family: Brandon;
+  font-size: 20px;
+  line-height: 35px;
+  font-weight: 400;
+}
+.shop-section .shop-btn{
+  text-align: center;
+  margin-top: 60px;
+  position: relative;
+  padding: 50px 0;
+}
+.shop-section .shop-btn a{
+  padding: 25px 40px;
+  color:#fff;
+  background: #900707;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+/* ==============================our-story======================== */
+.our-story-section{
+  padding: 30px;
+}
+.our-story-section .our-story-heading{
+  text-align: center;
+}
+.our-story-section .our-story-heading h3{
+  font-size: 24px;
+  font-family: Brandon;;
+}
+.our-story-section .our-story-heading h2{
+  font-size: 42px;
+  font-family: Brandon;;
+}
+.our-story-section .our-content{
+  padding: 100px 0;
+  max-width: 400px;
+}
+.our-story-section .our-content h2{
+  text-align: center;
+}
+.our-story-section .our-contentp{
+  font-size: 18px;
+}
+.our-story-section .our-story-image{
+  width: 100%;
+  margin-left: 50px;
+}
